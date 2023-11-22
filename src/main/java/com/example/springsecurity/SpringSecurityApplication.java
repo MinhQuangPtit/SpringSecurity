@@ -1,5 +1,6 @@
 package com.example.springsecurity;
 
+import com.example.springsecurity.configuration.WebSecurityConfig;
 import com.example.springsecurity.model.User;
 import com.example.springsecurity.model.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +24,7 @@ public class SpringSecurityApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
+
 		// Khi chương trình chạy
 		// Insert vào csdl một user.
 		User user = new User();
